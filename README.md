@@ -1,14 +1,12 @@
 # Cloud Computing Labs
 
-Welcome to my Cloud Computing Labs repository.
+This repo documents the hands-on labs I did during my Cloud Computing course. Rather than just submitting reports and moving on, I wanted to write up each lab properly — with the actual commands, what the output meant, and what clicked (or didn't) along the way.
 
-This repository contains the practical labs I completed during my Cloud Computing course and my personal learning. The goal is to document my hands-on experience with virtualization, Linux, networking, containers, orchestration, and cloud infrastructure.
-
-Each lab includes detailed documentation, commands used, explanations of key concepts, and the lessons learned throughout the implementation.
+The topics go from local virtualization with VirtualBox all the way up to containers, orchestration, and cloud infrastructure on platforms like Azure. Still a work in progress as I work through the rest of the labs.
 
 ---
 
-## Repository Structure
+## Structure
 
 ```
 cloud-computing-labs/
@@ -26,44 +24,24 @@ cloud-computing-labs/
 ## Labs
 
 | Lab | Topic | Status |
-|------|-------|--------|
-| 01 | Virtualization with VirtualBox | ✅ Completed |
-| 02 | Docker | ⏳ Planned |
-| 03 | Kubernetes | ⏳ Planned |
-| 04 | Cloud Networking | ⏳ Planned |
-| 05 | OpenStack | ⏳ Planned |
+|-----|-------|--------|
+| 01 | Virtualization with VirtualBox — local VMs, networking modes, SSH | Done |
+| 02 | Cloud VMs on Azure — IIS, web hosting, NSGs | Done |
+| 03 | Docker | Planned |
+| 04 | Kubernetes | Planned |
+| 05 | Cloud Networking | Planned |
+| 06 | OpenStack | Planned |
 
 ---
 
-## Technologies
+## Stack
 
-- VirtualBox
-- Linux (Ubuntu/Lubuntu)
-- SSH
-- Docker
-- Kubernetes
-- Git & GitHub
-- Networking
-- Cloud Computing Fundamentals
-
----
-
-## Learning Objectives
-
-Through these labs I aim to:
-
-- Understand virtualization technologies
-- Build and manage Linux virtual machines
-- Configure virtual networks
-- Deploy and manage containers
-- Learn Kubernetes orchestration
-- Practice cloud infrastructure concepts
-- Improve Linux system administration skills
+VirtualBox · Lubuntu · SSH · Microsoft Azure · IIS · Docker · Kubernetes · Git · Linux networking
 
 ---
 
 ## About
 
-This repository is part of my cybersecurity and cloud computing learning journey. It serves as a personal knowledge base and a portfolio showcasing my practical experience with cloud technologies.
+I'm a final-year CS student specializing in cybersecurity. These labs are part of my Cloud Computing course, but I'm also documenting them here because cloud infrastructure keeps showing up everywhere — in security tools, in research pipelines, in deployment. Better to actually understand it than just know it exists.
 
-I continuously update this repository as I complete new labs and projects.
+Each writeup tries to answer not just *how* I did something but *why* it works that way.
